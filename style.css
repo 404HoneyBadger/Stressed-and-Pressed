@@ -1,0 +1,124 @@
+
+body {
+  border: solid white;
+  height:100%;
+}
+.color-background {
+    width: 100%;
+    height: 100%;
+    position:100%;
+    z-index: -1;
+    background:
+      linear-gradient(to top,rgb(250, 220, 250), transparent),
+      linear-gradient(to right, rgb(226, 169, 226),rgb(179, 169, 226));
+}
+
+#port {
+    color: rgb(177, 82, 255);
+    font-size: 30px;
+    font-weight: 100;
+}
+nav {
+    background-image: linear-gradient( rgb(179, 169, 226), transparent);
+    height: 100px;
+    font-weight: 500;
+    font-size: 150%;
+    border-bottom: solid 5px whitesmoke
+}
+
+.header img {
+    padding: 10px;
+}
+
+
+h1 {
+    text-align: center;
+    
+}
+
+
+div.center-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  margin: 50px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(255, 118, 255, 0.521);
+}
+
+div.card {
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.404);
+  border: solid white;
+  padding: 10px;
+  border-radius: 15px;
+  margin: 10% 10%;
+  width: 75%;
+  justify-content: center;
+}
+
+.webcoderskull {
+  font-size: 0.5em;
+}
+
+svg {
+  position: none;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  border-bottom: solid 5px whitesmoke;
+  width: 100%;
+  height: 25%;
+    background-color: transparent;
+  background-size: 0.12em 100%;
+  font: 16em/1 Arial;
+}
+
+.webcoderskull-1 {
+  fill: none;
+  stroke: whitesmoke;
+  stroke-dasharray: 10% 10%;
+  stroke-width:3px;
+  -webkit-animation: stroke-offset 57s infinite linear;
+          animation: stroke-offset 57s infinite linear;
+}
+.webcoderskull-1:nth-child(1) {
+  stroke: whitesmoke;
+  stroke-dashoffset: 7%;
+}
+.webcoderskull-1:nth-child(2) {
+  stroke:white;
+  stroke-dashoffset: 14%;
+}
+.webcoderskull-1:nth-child(3) {
+  stroke: blue;
+  stroke-dashoffset: 25%;
+}
+.webcoderskull-1:nth-child(4) {
+  stroke:rgba(64, 224, 208, 0.815);
+  stroke-dashoffset: 20%;
+}
+.webcoderskull-1:nth-child(5) {
+  stroke: magenta;
+  stroke-dashoffset: 35%;
+}
+
+@-webkit-keyframes stroke-offset {
+  50% {
+    stroke-dashoffset: 315%;
+    stroke-dasharray: 0 87.5%;
+  }
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: 155%;
+    stroke-dasharray: 0 0%;
+  }
+}
+
+#c2 {
+  display: flex;
+  justify-content: space-between;
+
+}
